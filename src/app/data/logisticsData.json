@@ -1,0 +1,382 @@
+[
+   {
+    "id": "riyo_logistics",
+    "heading": "RIYO ",
+    "heading2": "LOGISTICS",
+    "description": "Manufacturer, Trader, Transport Company",
+    "riyoPageName": "RIYO LOGISTICS",
+    "paragraph": "we understand that each journey is unique, and each cargo holds its own set of challenges. That's why our approach is flexible, adaptive, and tailored to meet the specific needs of our clients. From real-time tracking and monitoring to proactive problem-solving, we are with our partners every step of the way, ensuring a hassle-free experience from start to finish",
+    "paragraph2": "Riyo Logistics is dedicated to supporting industries and transport companies as they navigate the challenges of transporting goods across the country. We understand the risks involved in every shipment and have built our service from the ground up to streamline this process and ensure a hassle-free experience. With a focus on leveraging technology, expertise, and strategic partnerships, we offer tailored solutions that mitigate risks, optimize routes, and provide real-time tracking for peace of mind. Join us as we redefine logistics excellence, alleviating uncertainties and paving the way for seamless transportation nationwide.",
+    "image1": "https://s3-alpha-sig.figma.com/img/f108/e898/31a090e494ce81c461fd39ee0c676f94?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jjW3epLOuf-v4HJbmuJTw-gXqPOcQOfvofUGATZ9rySeO7qr~gWz506DKYvS9XQnEaOGcz9LeU-0MtP2sUc5eWPE73E1DTFs2Ivg4AsjZk6ibwr2yTBklLfLRtNqz6AN6xaH3qXckTBpX-shMHzDKH1t-CaqBE-oSiYy45-B8f-q2-99vJmb0jpY-wfRhRlf9eCLylgeJ999rFyhfYjyBEMhKGJ4DlhQnv65iJ7mvUrv~7fjfFU-sy~bTUGsyOkvBNnl4tIW4T9wagz4U3CeJ7CeoKGgfToHI2gw54Q2astlPG6UK00VrDM67etpxWWph5b19vtKfvovo4eSM8FuHQ__",
+    "image2": "https://s3-alpha-sig.figma.com/img/3b69/6868/d5e1574b1098222b18597e25d193b8b2?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZwdmX54QpvYQKIqITEd4fLTvyffaiWTbnobxtKqzJxeUHPJWn4KLNNJo3JILi~DBomDd4bFjs9Bw9KIZ3-o5EVhEltwloimm5DAE22VVvKNv7B9W8HR-zUMMrDQb1TWocMDEXPHhQAqs7upbdxcoIsTriT~uJZNvZt-eKEem60Q7-5Y5HQ8at4rTUak4z0YBbhnGUZ7QHkepOhOseUm6Fih375BonoYqjLik7sJhdzV49N1y4PVMM8qrOaapS57ILiViqDNPvreCyDhziURc8gZu6v~kf6t75~YAoJ2RoN~hLDUcR4oAhD-kE41asQw5ydgX-FlXSLBH4lrW34JPng__",
+    "Parivahan": {
+      "Heading": "Parivahan",
+      "subHeading": "Package Include",
+      "card1": {
+        "topHeading": "For Trader Manufacturer",
+        "lines": [
+          "Unlimited Load Posts",
+          "250 RC Verification",
+          "250 DL Verification",
+          "500 Create Application",
+          "25 GST Verifications",
+          "Add Upto 5 Managers",
+          "Personal Relationship Manager",
+          "Verified Transporter",
+          "24×7 Customer Support"
+        ],
+        "bottomHeading": "₹10000/Monthly"
+      },
+      "card2": {
+        "topHeading": "For Transport Company",
+        "lines": [
+          "Unlimited Load Bidding",
+          "100 RC Verification",
+          "100 DL Verification",
+          "300 Create Application",
+          "25 GST Verifications",
+          "Add Upto 3 Managers",
+          "Personal Relationship Manager",
+          "Verified Industry",
+          "Verified Lorry Supplier",
+          "24×7 Customer Support"
+        ],
+        "bottomHeading": "₹5000/Monthly"
+      }
+    },
+    "logos": [
+      "24/7 Support",
+      "Business Growth",
+      "Zero Commission",
+      "No Hidden Costs",
+      "100% Safe & Secure Payment Gateway"
+    ],
+    "screenshots": {
+      "scrinshot1": "RiyoLogisticsScreenShot1",
+      "scrinshot2": "RiyoLogisticsScreenShot2",
+      "scrinshot3": "RiyoLogisticsScreenShot3",
+      "scrinshot4": "RiyoLogisticsScreenShot4"
+    },
+    "joinNowParagraph": "Join us as we redefine the standards of excellence in logistics, alleviating the burdens of uncertainty and complexity, and paving the way for seamless transportation solutions across the nation. With Riyo Logistics, your journey is not just a gamble—it's a promise of reliability, efficiency, and peace of mind",
+    "qrcode":"../../Asset/RiyoLogistics/riyo logistics QR.png",
+    "link":" https://play.google.com/store/apps/details?id=com.riyo.riyo_logistics",
+    "collaborations": [
+      { "heading": "Our Collaborations" },
+      { "heading2": "4025", "detail": "Manufacturer" },
+      { "heading3": "225", "detail": "Traders" },
+      { "heading4": "225", "detail": "Transport Company" }
+    ],
+    "contact": {
+      "heading": "Get In touch",
+      "mobilenumber": "033 35561099",
+      "email": "Contact@riyorentitoverindia.com"
+    },
+    "testimonials": {
+      "slider1": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider2": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider3": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider4": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      }
+    }
+  },
+   {
+    "id":"riyo_business",
+    "heading": "RIYO",
+    "heading2": "BUSINESS",
+    "description": "Lorry Broker",
+    "riyoPageName": "RIYO Business",
+    "paragraph": "is an innovative mobile application designed to empower lorry brokers by providing them with a comprehensive platform to expand and enhance their business. With Riyo Business, lorry brokers gain access to a range of powerful tools and features tailored to their needs, enabling them to efficiently manage their operations, connect with clients, and secure profitable business opportunities. Whether it's finding new leads, optimizing routes, or streamlining communication with drivers and clients, Riyo Business is the ultimate solution for lorry brokers looking to take their business to the next level.",
+    "image1": "https://s3-alpha-sig.figma.com/img/b0eb/fbcc/cb979c6f757eee2d3b8371e4173b3768?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NpKwFCGw9p1vR1CHgeXR-1mcwCnfHwm1VLmh3TK--yCvc9J3-mLq7Wyjt~p411G~iR8kwfW4ODlFvJ3pE4nxn6qveW8hFNxO9j5ImnPl8YxK8Gy2ySvit42FF~rG5cRobgu-kYJ42fldq6WylVZuTvQb-e5JUZoKMI9F7r7MZfein0JQcIJeoXjzocyfVj7qXS3W8mkykTg4U2Ud9v6YCDfsvvXjIep3aoETrOiMyJaAY3~pvuR7JZUYGePaik4TX6G~uKcrTGndXPGwcjUEgCoHQCRxjbBLOvPAiThBZOEYIj-WKKzfoUOGm0PUOmbDgiE7SHR7Bhh2QBArQkf71A__",
+    "image2": "https://s3-alpha-sig.figma.com/img/672e/c17f/b7197e2bde6107d9eb423847d8976524?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bxvF0wHxbiLoiA36y4Tx1KBBMmoN8G7FNn8-umMqfGmubKQqmHljZLxfAruDP2BweDVm8BV~3qUVb26JFpnyP~3DkBoT0QBhGh3qxUysJQ5qi-rDc7wpDRfayY-CgTHk-D32mbyeFk-EO0e9GSatcI5N8qoJZqA0ZUzMM~ENe6hpRf770RmCcDsKzgBcLNsjSUpNp2p7ZT~05RDDXK-DEUFhiYcB21zt2THVU4FeOrmk0vocGoeMfGU9CGlhrsMvL1mqVCJz8MCw3pVUU7dkvQm~g7prdqPbDcihwNwrc34fQ8BRuZ3EZ2p~iror80XdeVjrhYkOKlE4s0LuRwZ-PA__",
+    "Parivahan": {
+      "Heading": "Parivahan",
+      "subHeading": "Package Include",
+      "card1": {
+        "topHeading": "For Trader Manufacturer",
+        "lines": [
+          "Unlimited load posts",
+          "250 RC verification",
+          "250 DL verification",
+          "500 Create Application",
+          "Personal relationship manager",
+          "Verified transporter",
+          "24×7 customer support"
+        ],
+        "bottomHeading": "₹10000/Monthly"
+      },
+      "card2": {
+        "topHeading": "For Lorry Broker  ",
+        "lines": [
+          "Unlimited load posts",
+          "200 RC verification ",
+          "Verified Lorry Owner ",
+          "Verified Lorry Driver ",
+          "Personal relationship manager",
+          "Verified transporter",
+          "24×7 customer support"
+        ],
+        "bottomHeading": "₹2000/Monthly "
+      }
+    },
+    "logos": [
+      "24/7 Support",
+      "Business Growth",
+      "Zero Commission",
+      "No Hidden Costs",
+      "100% Safe & Secure Payment Gateway"
+    ],
+    "screenshots": {
+      "scrinshot1": "RiyoBusinessScreenShot1",
+      "scrinshot2": "RiyoBusinessScreenShot2",
+      "scrinshot3": "RiyoBusinessScreenShot3",
+      "scrinshot4": "RiyoBusinessScreenShot4"
+    },
+    "joinNowParagraph": "Join Now with RIYO and elevate your lorry brokerage business to new heights! Our platform connects brokers with tailored business opportunities that match their expertise and requirements. Whether you specialize in local deliveries, international freight, or niche markets, we provide the tools and connections to expand your client base and boost your revenue. Join our network today and take the next step towards success in the world of lorry brokerage",
+    "qrcode":"https://files.slack.com/files-pri/T06NV9UGSFN-F0747G6J1PC/riyo_parivaar.png",
+    "link":"https://play.google.com/store/apps/details?id=com.riyobusiness.riyo_business",
+    "collaborations": [
+      { "heading": "Our Collaborations" },
+      { "heading2": "4025", "detail": "Lorry Owner" },
+      { "heading3": "225", "detail": "Lorry Driver" },
+      { "heading4": "225", "detail": "Transport Company" }
+    ],
+    "contact": {
+      "heading": "Get In touch",
+      "mobilenumber": "033 35561099",
+      "email": "Contact@riyorentitoverindia.com"
+    },
+    "testimonials": {
+      "slider1": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider2": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider3": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider4": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      }
+    }
+  },
+  {
+    "id":"riyo_surakhsha",
+    "heading": "RIYO",
+    "heading2": "SURAKHSHA",
+    "description": "Lorry Owner",
+    "riyoPageName": "RIYO SHURAKHSHA",
+    "paragraph": "We empowering commercial truck owners across India, RIYO Rentitover presents a groundbreaking solution tailored exclusively for them. In a market dominated by individual truck proprietors, who serve as the lifeline of various sectors including manufacturing, mining, and agriculture, RIYO acknowledges the challenges they face daily. From overseeing truck operations to managing driver issues and grappling with RTO-related hurdles, truck owners endure significant mental and financial strain. RIYO's innovative mobile application revolutionizes this landscape, offering a one-stop platform for seamless assistance on all Indian Highways. Say goodbye to the hassle of coordinating with local mechanics or rushing to resolve paperwork woes. With RIYO, truck owners can access essential services effortlessly, saving time and minimizing additional costs. Join us in transforming the trucking industry and empowering truck owners nationwide.",
+    "image1": "https://s3-alpha-sig.figma.com/img/3596/4965/2d435590e488df58a7a8349b2e10a019?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ok51yzJkyBNdgxa4NQ~N8Ihm8MflTp5lbz6QbZr~ISMVt2PnEBKg6mxf9WgN95GR34QizmHknS6vcAhRUq7wt7FKkLChVfGYj01Q0MvizAMvbYwNMJtOXjXWg~Zb40b~JmRbsR8UP4jCSrJkiDVwVNiBL4iyvWTSKx0Lx4Od1I-~O6PR3OB7kaCxxbjvDfc3GvwkeypmnPA5tehoEX3fBCH7~vjSUHpAGsl4C0TFDHFyQI2FTN8JPPcwPwx~TKlhsyO2AS1xezysiCLctMFGgQtve9ZSAzQb-V0-xeaoqyCEg94nPdnrpqk-b307aqjTxg~PBjbIn6LjoOdK07U4Ow__",
+    "image2": "https://s3-alpha-sig.figma.com/img/4c42/0d7d/b9c91e099f1835fd44b59a73b589cf43?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GhDUgHhV2r0C0FzHuPfKeFDDFtaWgB23CSAatxGCyo5TN8B5ssNPxM-cBfR1uPb2z6To20GgUYh23-wZsT2zd1P2RfJxplVIEwGzUbqCZZZGU8nPIjkiL0eN~~A2jFd7aRp656sT8Gu0dyxZSaKYIEWTTxGGETEjr-6wdXEusz704nYFBQaiaMJsjV4MVelGeKX0fMVOj0eKlOCdV4ZNxDtelPg0Z46ZD0HUHObPcs3G-22BtHLeDcC9K-kYOWiXLej8N3fGSVse4MN7aN00jjFMulz3U5hpJEnbdlXnt24dWUrb8JAiQv8ID~9wbDFgHIm-R6q5faoYfx5I738AhA__",
+    "Parivahan": {
+      "Heading": "Parivahan",
+      "subHeading": "",
+      "card1": {
+        "topHeading": "For Trader Manufacturer",
+        "lines": [
+          "Unlimited Load Posts",
+          "250 RC Verification ",
+          "250 DL Verification",
+          "500 Create Application",
+          "Personal Relationship manager",
+          "Verified Transporter",
+          "24×7 Customer Support"
+        ],
+        "bottomHeading": "₹10000/Monthly"
+      },
+      "card2": {
+        "topHeading": "For Transport Company",
+        "lines": [
+          "Unlimited Load Bidding",
+          "100 RC Verification",
+          "100 DL Verification",
+          "300 Create Application",
+          "Personal Relationship Manager",
+          "Verified Industry",
+          "Verified Lorry Supplier",
+          "24×7 Customer Support."
+        ],
+        "bottomHeading": "₹5000/Monthly"
+      }
+    },
+    "logos": [
+      "24/7 Support",
+      "Business Growth",
+      "Zero Commission",
+      "No Hidden Costs",
+      "100% Safe & Secure Payment Gateway"
+    ],
+    "screenshots": {
+      "scrinshot1": "RiyoShurakhshaScreenShot1",
+      "scrinshot2": "RiyoShurakhshaScreenShot2",
+      "scrinshot3": "RiyoShurakhshaScreenShot3",
+      "scrinshot4": "RiyoShurakhshaScreenShot4"
+    },
+    "joinNowParagraph": "Join Now with RIYO and revolutionize your trucking experience! We connect truck owners with tailored loads, matching your capacity and preferences with the perfect cargo. Whether you're looking for local hauls or cross-country routes, our platform streamlines the process, ensuring efficiency and maximizing your earnings. Join our network today and take the next step towards optimizing your trucking operations with ease",
+    "qrcode":"https://files.slack.com/files-pri/T06NV9UGSFN-F0740SLTVUN/riyo_logistics.png",
+    "link":" https://play.google.com/store/apps/details?id=com.adhiraj.riyo_suraksha",
+    "collaborations": [
+      { "heading": "Our Collaborations" },
+      { "heading2": "4025", "detail": "Lorry Driver" },
+      { "heading3": "225", "detail": "Lorry Broker" },
+      { "heading4": "225", "detail": "Transport Company" }
+    ],
+    "contact": {
+      "heading": "Get In touch",
+      "mobilenumber": "033 35561099",
+      "email": "Contact@riyorentitoverindia.com"
+    },
+    "testimonials": {
+      "slider1": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider2": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider3": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider4": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      }
+    }
+  },
+   {
+    "id":"riyo_parivaar",
+    "heading": "RIYO",
+    "heading2": "PARIVAAR",
+    "description": "Lorry Driver",
+    "riyoPageName": "RIYO PARIVAAR",
+    "paragraph": "We unlock a smoother journey for commercial truck drivers navigating the diverse landscape of national highways. RIYO Rent It Over India Pvt Ltd introduces the RIYO Family policy, aimed at revolutionizing driving conditions for truckers. With a focus on addressing language barriers, cultural differences, and essential needs, RIYO's innovative mobile application streamlines access to vital services right on the highway, empowering drivers with convenience at their fingertips. From financial stability to RTO issue resolution, from nourishing meals to restful stops, RIYO covers every aspect to ensure drivers' well-being and professionalism. Join us in reshaping the perception of the trucking sector and fostering a safer, more supportive environment on Indian National Highways. Together, we can drive change and optimize the logistics landscape for manufacturers, traders, and drivers alike.",
+    "image1": "https://s3-alpha-sig.figma.com/img/b004/01a5/389c6381aabcb138a7768f05c38b846a?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pHJvqADjf-kuNRL9I8fm0BioXm4ROGkxVXrNOb6LBYAcINGiJLcpOUZO1inrLfheWGbPJGdKyIbCZE2n7WVdvNSXLDq8fPdQAzVe~74MsXkW9Mp1IkWskfZQ7i3kz5DrQrfjP0Y0nUtqMh9wLaXzAh7aBQ3yXJVzLGmo-xMWiIcycJGCnva9K8ByFvuTxbhG0C~PGmOLmcEcnCTQZBfeQo3klxl3hn1eNJzNVYeQApUN6riH9lY1zofi8ZVXW3pdHP7luK6sLjv2KPNSPxGWgtm2-M6odIkudRdkglP9sAC2T5GyEF8v2dupt0Fh853lWnjXDLztHKggZkzzElw-IQ__",
+    "image2": "https://s3-alpha-sig.figma.com/img/645d/ff62/ec4f5776e522a39651b1b5ef2c7a5978?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a4XYn6h~hjI~-ipjvurrn2HMZ6hzSExViOTabZLWC8pfYHbk2Dg9FPHw-vAQhPJw6fV4BXv09piCucEifqZkuRCR5Rmb1ifyAPt-Y4r2WZncf-weV4incPTpZDJPw3MOWnwqAuF-916KL1LGBQY7DtBT4OAEt-FilLF6n0bIQsorv7B16AINGwFSWZiSgiqTsE~AtHOPdava3EuDiW0EfJUCbmyVeV4S5D4bM5NEbZnqlNqe97ZdjjoKjXr9h5~5j8xtvj9pdAs8OhJ-aa1kRIuNbpQia3c7eHMu~P7Z7uI8cG~WgiyaS0YQo-m-iBZYLmodMLlWC1f6jG5pcl1w3g__",
+    "Parivahan": {
+      "Heading": "Parivahan",
+      "subHeading": "",
+      "card1": {
+        "topHeading": "For Trader Manufacturer",
+        "lines": [
+          "Unlimited load posts",
+          "250 RC verification",
+          "250 DL verification",
+          "500 Create Application",
+          "Personal relationship manager",
+          "Verified transporter",
+          "24×7 customer support"
+        ],
+        "bottomHeading": "₹10000/Monthly"
+      },
+      "card2": {
+        "topHeading": "For Transport Company",
+        "lines": [
+          "Unlimited Load Bidding",
+          "100 RC Verification",
+          "100 DL Verification",
+          "300 Create Application",
+          "Personal Relationship Manager",
+          "Verified Industry",
+          "Verified Lorry Supplier",
+          "24×7 Customer Support."
+        ],
+        "bottomHeading": "₹5000/Monthly"
+      }
+    },
+    "logos": [
+      "24/7 Support",
+      "Business Growth",
+      "Zero Commission",
+      "No Hidden Costs",
+      "100% Safe & Secure Payment Gateway"
+    ],
+    "screenshots": {
+      "scrinshot1": "RiyoParivaarScreenShot1",
+      "scrinshot2": "RiyoParivaarScreenShot2",
+      "scrinshot3": "RiyoParivaarScreenShot3",
+      "scrinshot4": "RiyoParivaarScreenShot4"
+    },
+    "joinNowParagraph": "Ready to hit the road? Join Now with RIYO and unlock endless opportunities in the world of truck driving. Our platform connects skilled drivers with jobs tailored to their preferences and requirements. Whether you're seeking local routes, long hauls, or specialized cargo, we've got you covered. Join our community today and take control of your trucking career with ease and confidence.",
+    "qrcode":"https://files.slack.com/files-pri/T06NV9UGSFN-F0747G6J1PC/riyo_parivaar.png",
+    "link":"https://play.google.com/store/apps/details?id=com.adhiraj.riyo_parivaar",
+    "collaborations": [
+      { "heading": "Our Collaborations" },
+      { "heading2": "4025", "detail": "Lorry Owner" },
+      { "heading3": "225", "detail": "Lorry Broker" },
+      { "heading4": "225", "detail": "Transport Company" }
+    ],
+    "contact": {
+      "heading": "Get In touch",
+      "mobilenumber": "033 35561099",
+      "email": "Contact@riyorentitoverindia.com"
+    },
+    "testimonials": {
+      "slider1": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider2": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider3": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      },
+      "slider4": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
+        "name": "Sujit Mishra",
+        "director": "DirectorGM",
+        "logistics": "Logistics"
+      }
+    }
+  }
+]
