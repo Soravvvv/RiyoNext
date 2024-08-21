@@ -24,7 +24,7 @@ const RiyoLogisticsSection2: React.FC<RiyoLogisticsSection2Props> = ({ logisticA
       <div className="lg:w-3/5 h-full z-10 flex items-center justify-center relative">
         <div className="relative text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
         <p className="relative z-10  text-[1.5rem] leading-loose mb-2">
-        <div className="absolute  h-14 w-14 rounded-full bg-gradient-to-r from-primary-orange to-primary-blue opacity-50 z-0"></div>
+        {/* <div className="absolute  h-14 w-14 rounded-full bg-gradient-to-r from-primary-orange to-primary-blue opacity-50 z-0"></div> */}
         <span className="font-bold text-primary-orange">
         <span className="text-primary-blue">At </span>{logisticAllData?.riyoPageName}
             </span>, {logisticAllData?.paragraph}
@@ -42,10 +42,10 @@ const RiyoLogisticsSection2: React.FC<RiyoLogisticsSection2Props> = ({ logisticA
               alt="Image 1"
               className="w-full h-40 lg:h-60 xl:h-80 2xl:h-[36rem] rounded-lg object-cover shadow-lg"
             />
-            <div className="absolute top-0 left-0 w-4 h-4 lg:w-6 lg:h-6 xl:w-8 xl:h-8 bg-gradient-to-r from-orange-500 to-blue-500 rounded-full"></div>
+            {/* <div className="absolute top-0 left-0 w-4 h-4 lg:w-6 lg:h-6 xl:w-8 xl:h-8 bg-gradient-to-r from-primary-orange to-primary-blue rounded-full"></div> */}
           </div>
           <div className="relative flex-shrink-0 lg:w-1/2">
-            <div className="absolute bottom-0 right-0 w-4 h-4 lg:w-6 lg:h-6 xl:w-8 xl:h-8 bg-gradient-to-r from-blue-500 to-orange-500 rounded-full"></div>
+            {/* <div className="absolute bottom-0 right-0 w-4 h-4 lg:w-6 lg:h-6 xl:w-8 xl:h-8 bg-gradient-to-r from-primary-blue to-primary-orange rounded-full"></div> */}
             <img
               src={logisticAllData.image2 || '/default-image2.jpg'}
               alt="Image 2"

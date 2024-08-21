@@ -6,14 +6,16 @@ import anima from '../../../public/Image/home/homesectionanimation.gif';
 const HomeSection2: React.FC = () => {
   return (
     <>
-      <div className="w-full flex flex-col lg:flex-row lg:h-[80%] gap-[0.1%]">
-        <div className="w-full lg:w-[35%] flex justify-center items-center">
+      <div className="w-full flex flex-col lg:flex-row lg:h-[80%] gap-[0.1%] relative overflow-hidden">
+
+        <div className="w-full lg:w-[35%] flex justify-center items-center order-2 md:order-1 z-10">
           <div className="w-[95%] flex">
-            <div className="mt-[35%] lg:mt-[20%] h-60 lg:h-[20rem] w-full bg-cover bgRiyoBusiness2"></div>
+            <div className="md:mt-[35%] mt-2 lg:mt-[20%] h-60 lg:h-[20rem] w-full bg-cover bgRiyoBusiness2"></div>
           </div>
         </div>
-        <div className="w-full lg:w-[50%] flex flex-col justify-center items-center px-4 lg:px-0">
-          <div className="mt-8 lg:mt-[10%] w-full flex flex-col lg:flex-row items-center gap-4">
+
+        <div className="w-full lg:w-[50%] flex flex-col justify-center items-center px-4 lg:px-0 order-1 md:order-2 z-10">
+          <div className="mt-8 lg:mt-[10%] w-full flex md:flex-col lg:flex-row items-center gap-4">
             <div className="flex justify-center items-center h-20 w-20 lg:h-28 lg:w-28 rounded-[5px] bg-[#0c4c78] relative">
               <div className="w-[50px] h-[50px] flex justify-center items-center">
                 <Image src={anima} alt="logo" className="absolute" />
@@ -35,8 +37,9 @@ const HomeSection2: React.FC = () => {
             </p>
           </div>
         </div>
+
         {/* Design Pattern */}
-        <div className="w-full lg:w-[20%] h-[30vh] lg:h-[70vh] flex items-center overflow-hidden mt-8 lg:mt-0">
+        <div className="w-full lg:w-[20%] h-[30vh] lg:h-[70vh] md:flex items-center overflow-hidden mt-8 lg:mt-0 absolute -right-[50%] top-[14%]">
           <div className="w-[250px] lg:w-[400px] h-[250px] lg:h-[400px] rounded-[30px] rotate-45 bg-[#f5ad9b] relative right-[-80px] lg:right-[-148px]">
             <div className="w-[200px] lg:w-[350px] h-[200px] lg:h-[350px] rounded-[30px] rotate-90 bg-[#0c4c78] relative right-[-10px] lg:right-[-20px]"></div>
           </div>

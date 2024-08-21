@@ -4,13 +4,13 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 // import { useDispatch } from 'react-redux';
 // import { setCurrentPage } from'../../utils/Store/features/dataslice';
-import Link from 'next/link';
+
 
 const RiyoLogSection: React.FC = () => {
 //   const dispatch = useDispatch();
 const router = useRouter();
   const handle = (value: string) => {
-    router.push(`/riyologistics/${value}`);
+    router.push(`/riyologistics/riyo_logistics`);
   };
 
   return (

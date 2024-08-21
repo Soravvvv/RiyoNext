@@ -29,7 +29,7 @@ const RiyoHero: React.FC<RiyoHeroProps> = ({ logisticAllData }) => {
                 <span className="pl-[8px] font-light">{logisticAllData.heading2}</span>
               </Bounce>
             </h1>
-            <p className="text-right font-medium sm:text-[10px] lg:text-[1rem] sm:mt-[-1.5rem]">
+            <p className="text-right font-medium sm:text-[0.625rem] lg:text-[1rem] sm:mt-[-1.5rem]">
               {logisticAllData.description}
             </p>
           </div>

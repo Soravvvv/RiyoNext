@@ -1,14 +1,16 @@
 "use client";
 import { FC } from 'react';
+import { useRouter } from 'next/navigation';
 // import { useAppDispatch } from '@/utils/hooks'; // Assuming you have a custom hook for dispatch
 // import { setCurrentPage } from '@/store/features/CurrentPages'; // Adjust the path according to your structure
-import Link from 'next/link';
 
 const RiyoBusinessSection: FC = () => {
 //   const dispatch = useAppDispatch();
 
+const router = useRouter();
+
   const handle = (value: string) => {
-    // dispatch(setCurrentPage(value));
+    router.push(`/riyologistics/riyo_business`);
   };
 
   return (
@@ -30,14 +32,13 @@ const RiyoBusinessSection: FC = () => {
                 tailored to their needs, enabling them to efficiently manage their operations, connect with clients, and
                 secure profitable business opportunities.
               </p>
-              <Link href="/RiyoLogistics">
+              
                 <button
-                  onClick={() => handle("RiyoBusinessData")}
+                  onClick={() => handle("riyoLogisticData")}
                   className="h-[4.6rem] w-[15rem] bg-primary-darkblue text-primary-white text-[1.4rem] rounded-md shadow-md"
                 >
                   Know more
                 </button>
-              </Link>
             </div>
           </div>
         </div>

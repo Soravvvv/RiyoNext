@@ -8,13 +8,13 @@ import Vector3 from '../../../public/Image/home/Vector (3).png';
 
 const HomeGetTouch: React.FC = () => {
     return (
-        <div className="w-full h-[60vh] z-4 flex justify-around items-center relative bg-gradient-to-b from-primary-orange to-primary-blue_tranparentGetintouch">
-            <div className="w-1/2 flex items-center text-primary-white text-6xl px-8 ml-5">
+        <div className="w-full h-[60vh] z-4 flex justify-around items-center relative bg-gradient-to-b from-primary-orange to-primary-blue_tranparentGetintouch md:flex-row flex-col">
+            <div className="md:w-1/2 flex items-center text-primary-white md:text-6xl text-[5vh] px-8 ml-5">
                 <h1 className="font-semibold">
                     <Bounce>Get in Touch</Bounce>
                 </h1>
             </div>
-            <div className="w-1/2 h-1/2 flex justify-around items-center">
+            <div className="md:w-1/2 h-1/2 flex justify-around items-center">
                 <div className="w-full h-full">
                     <div className="flex gap-5 items-center">
                         <a href="tel:03335561099" className="flex gap-4 items-center no-underline">

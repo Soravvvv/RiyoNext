@@ -70,16 +70,13 @@ const HeroHome = () => {
         </div>
     ),
 };
-    
-    
-    
     const redirectToWhatsApp = () => {
         window.location.href = `https://wa.me/+916289688570`;
     };
 
     return (
         <div className=" w-full h-screen  overflow-hidden ">
-            <div className="absolute flex flex-col justify-between items-center gap-[2%] top-0 left-0 w-[15%] h-full bg-gradient-to-b from-primary-orange to-primary-blue z-10 ">
+            <div className="absolute hidden md:flex flex-col justify-between items-center gap-[2%] top-0 left-0 w-[15%] h-full bg-gradient-to-b from-primary-orange to-primary-blue z-10">
                 <div className='flex flex-col w-full justify-center items-center pt-6'>
                     <div className='h-[100%] pb-16 '>
                         <Image className='h-28 w-24' src={Logo} height={100} alt='RIYO Logo' />
@@ -142,7 +139,7 @@ const HeroHome = () => {
                     <a href="#" onClick={redirectToWhatsApp} className="text-green-400 hover:text-green-600">
                         <FaWhatsapp size={20} />
                     </a>
-                    <a href="https://www.facebook.com/share/8vVBgoU3yA1YYoZX/?mibextid=qi2Omg" className="text-blue-700 hover:text-blue-800">
+                    <a href="https://www.facebook.com/share/8vVBgoU3yA1YYoZX/?mibextid=qi2Omg" className="text-primary-blue hover:text-blue-800">      
                         <RiFacebookCircleLine size={20} />
                     </a>
                     <a href="https://www.instagram.com/riyoindia_?igsh=MXQ4MHc0eGV4OWt6NA==" className="text-pink-600 hover:text-pink-700">
@@ -311,6 +308,7 @@ const HeroHome = () => {
                     </div>
                 </Slider>
             </div>
+            
         </div>
     );
 };

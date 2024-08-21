@@ -25,9 +25,9 @@ const Header: React.FC = () => {
       <ul
         className={`${
           isOpen ? 'flex' : 'hidden'
-        } md:flex flex-col md:flex-row list-none text-primary-white justify-between m-0 p-0 absolute md:relative w-full md:w-auto top-[80%] left-0 bg-gradient-to-l from-primary-blue to-primary-orange z-5 md:z-auto`}
+        } md:flex flex-col md:flex-row list-none text-primary-white   md:justify-between m-0 p-0 absolute md:relative w-full md:w-auto top-[80%] left-0 bg-gradient-to-l from-primary-blue to-primary-orange z-5 md:z-auto`}
       >
-        <li onClick={handleClick} className="flex items-center border-r-2 pr-20 cursor-pointer my-2 md:my-0 ">
+        <li onClick={handleClick} className="flex items-center border-r-2 pr-20 cursor-pointer my-2 md:my-0">
           <Link href='/home'>Home</Link>
         </li>
         <div className="h-16 w-[2px] bg-white hidden md:block"></div>

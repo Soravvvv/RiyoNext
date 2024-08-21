@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const HomeAboutUs: FC = () => {
     return (
-        <div className="w-[100%] h-[60vh] flex bg-primary-white py-8 px-[4%] my-[1%] justify-between flex-row-reverse">
+        <div className="w-[100%] h-[60vh] flex bg-primary-white py-8 px-[4%] my-[1%] justify-between md:flex-row-reverse flex-col">
             <div className="w-1/3 flex items-center justify-around relative">
                 <div className="w-[38%] h-[38%] absolute top-0 left-0"></div>
                 <div className="w-[38%] h-[38%] absolute bottom-0 right-0"></div>
@@ -20,7 +20,7 @@ const HomeAboutUs: FC = () => {
 
                 </div>
             </div>
-            <div className="w-[60%] p-[1%_2%]">
+            <div className="md:w-[60%] md:p-[1%_2%] w-[100%]">
                 <div>
                     <Bounce>
                         <h1 className="text-5xl text-primary-blue">About Us</h1>

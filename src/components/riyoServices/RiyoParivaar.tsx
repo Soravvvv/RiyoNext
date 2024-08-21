@@ -1,15 +1,17 @@
 "use client";
 import { FC } from 'react';
+import { useRouter } from 'next/navigation';
 // import { useAppDispatch } from '@/utils/hooks'; // Adjust the path according to your structure
 // import { setCurrentPage } from '@/store/features/CurrentPages'; // Adjust the path according to your structure
-import Link from 'next/link';
 
 const RiyoParivaar: FC = () => {
 //   const dispatch = useAppDispatch();
 
-  const handle = (value: string) => {
-    // dispatch(setCurrentPage(value));
-  };
+const router = useRouter();
+
+const handle = (value: string) => {
+  router.push(`/riyologistics/riyo_parivaar`);
+};
 
   return (
     <div className="h-[86vh] w-full flex justify-center items-center">
@@ -30,14 +32,12 @@ const RiyoParivaar: FC = () => {
                 mobile application streamlines access to vital services right on the highway, empowering drivers with
                 convenience at their fingertips.
               </p>
-              <Link href="/RiyoLogistics">
                 <button
-                  onClick={() => handle("RiyoParivaarData")}
+                  onClick={() => handle("riyoLogisticData")}
                   className="h-[4.6rem] w-[15rem] cursor-pointer bg-primary-darkblue text-primary-white text-[1.4rem] rounded-md shadow-md"
                 >
                   Know more
                 </button>
-              </Link>
             </div>
           </div>
         </div>

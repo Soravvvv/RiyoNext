@@ -37,7 +37,7 @@ const HomeOurservice: FC = () => {
                     </div>
                 </div>
 
-                <div className="mt-6 lg:mt-0 w-full lg:w-[50%] flex flex-col lg:flex-row lg:gap-4">
+                <div className="mt-6 lg:mt-0 w-full lg:w-[50%] md:flex flex-col lg:flex-row lg:gap-8  hidden">
                     <div className="flex justify-center lg:justify-start items-center relative">
                         <div className="flex flex-col justify-between items-center h-full absolute w-full">
                             <div className="bg-primary-blue w-10 h-10 lg:w-12 lg:h-12 rounded-full flex justify-center items-center shadow-md">
@@ -80,7 +80,7 @@ const HomeOurservice: FC = () => {
                         <Image src={Icon4} alt="RIYO Parivaar Icon" className="w-4 h-4" />
                     </div>
                 </div>
-                <div className="mt-4 flex flex-col items-center">
+                <div className="mt-4 flex md:flex-col items-center">
                     <p className="text-base lg:text-2xl font-bold text-primary-white">RIYO Logistics</p>
                     <p className="text-base lg:text-2xl font-bold text-primary-white">RIYO Business</p>
                     <p className="text-base lg:text-2xl font-bold text-primary-white">RIYO Surakhsha</p>
