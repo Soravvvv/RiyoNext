@@ -8,7 +8,7 @@ import RIYOParivaarQR from '../../../public/Image/riyoparivaar/riyo parivaar QR.
 import image from '../../../public/Image/image/Group 2914 (1).svg';
 const RiyoServicesApplication: React.FC = () => {
     return (
-        <div className="w-full flex justify-center items-center py-32">
+        <div className="w-full flex justify-center items-center py-10">
             <div className="md:h-[50vh] md:w-[88%] px-4">
                 <p className="text-2xl font-semibold text-primary-darkblue mb-8">RIYO Application is now available for download on Play Store.</p>
 

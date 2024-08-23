@@ -8,20 +8,20 @@ import Vector3 from '../../../public/Image/home/Vector (3).png';
 
 const HomeGetTouch: React.FC = () => {
     return (
-        <div className="w-full h-[60vh] z-4 flex justify-around items-center relative bg-gradient-to-b from-primary-orange to-primary-blue_tranparentGetintouch md:flex-row flex-col">
+        <div className="w-full h-[55vh] px-5 z-4 flex justify-evenly items-center relative bg-gradient-to-b from-primary-orange to-primary-blue_tranparentGetintouch md:flex-row flex-col">
             <div className="md:w-1/2 flex items-center text-primary-white md:text-6xl text-[5vh] px-8 ml-5">
                 <h1 className="font-semibold">
                     <Bounce>Get in Touch</Bounce>
                 </h1>
             </div>
-            <div className="md:w-1/2 h-1/2 flex justify-around items-center">
-                <div className="w-full h-full">
+            <div className="md:w-1/2 w-[100%]  h-1/2 flex  justify-around items-center">
+                <div className="w-[70%] h-full">
                     <div className="flex gap-5 items-center">
                         <a href="tel:03335561099" className="flex gap-4 items-center no-underline">
                             <div className="w-12 h-12 rounded-full flex justify-center items-center bg-gradient-to-b from-[#df510c] to-[#0c2c78]">
                                 <Image src={Vector1} alt="Phone Icon" width={20} height={20} />
                             </div>
-                            <p className="text-[1.375rem] font-light text-primary-white">033 35561099</p>
+                            <p className="md:text-[1.375rem] text-[1rem] font-light text-primary-white">033 35561099</p>
                         </a>
                     </div>
                     <div className="flex gap-5 items-center mt-4">
@@ -29,14 +29,14 @@ const HomeGetTouch: React.FC = () => {
                             <div className="w-12 h-12 rounded-full flex justify-center items-center bg-gradient-to-b from-[#df510c] to-[#0c2c78]">
                                 <Image src={Vector2} alt="Email Icon" width={20} height={20} />
                             </div>
-                            <p className="text-[1.375rem] font-light text-primary-white">Hello@riyorentitoverindia.com</p>
+                            <p className="md:text-[1.375rem] text-[1rem] font-light text-primary-white">Hello@riyorentitoverindia.com</p>
                         </a>
                     </div>
                     <div className="flex gap-5 items-center mt-4">
                         <div className="p-4 rounded-full bg-gradient-to-b from-[#df510c] to-[#0c2c78]">
                             <Image src={Vector3} alt="Location Icon" width={20} height={20} />
                         </div>
-                        <p className="text-[1.375rem] font-light text-primary-white">
+                        <p className="md:text-[1.375rem] text-[1rem] font-light text-primary-white">
                             2nd Floor SK Tower, Behind Reliance Market, Niranjanpur, Mandi, Dehradun, UK, 248001, India
                         </p>
                     </div>
