@@ -27,40 +27,30 @@ const HeroHome = () => {
     autoplay: true,
     autoplaySpeed: 1500,
     pauseOnHover: true,
-    customPaging: (i: number) => (
-        <button
-            style={{
-                width: '0.625rem',
-                height: '0.625rem',
-                borderRadius: '50%',
-                backgroundColor: 'transparent',
-                border: 'none',
-                padding: 0,
-                margin: 0,
-                cursor: 'pointer',
-            }}
-        >
-            {/* You can also add content inside the button if needed */}
-        </button>
-    ),
+    
     appendDots: (dots: React.ReactNode) => (
         <div
-            style={{
-                position: 'absolute',
-                bottom: '1.25rem',
-                display: 'flex',
-                justifyContent: 'center',
-                borderRadius: '50%',
-                padding: '0.625rem',
-            }}
+        style={{
+            position: 'absolute',
+            height:"100%",
+            display: 'flex',
+            flexDirection:"row",
+            alignItems: "center",
+            
+            justifyContent: 'flex-end',
+            borderRadius: '50%',
+            padding: '0.625rem',
+        }}
         >
-            <ul style={{ display: 'flex', margin: 0, padding: 0 }}>
+            <ul style={{ display: 'flex',flexDirection:"column", margin: 0, padding: 0 }}>
                 {React.Children.map(dots, (dot: React.ReactNode, index: number) => (
                     <li
                         key={index}
                         style={{
-                            listStyleType: 'none', // Make sure this li style doesn't have default list styling
+                            listStyleType: 'none',
                             margin: '0 0.3125rem',
+                            color:"white"
+                           
                         }}
                     >
                         {dot}

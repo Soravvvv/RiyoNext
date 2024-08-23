@@ -19,7 +19,8 @@
 }
 
 .slick-dots li button:before {
-    color: white;
+    color: white !important;
+    font-size: 20px !important;
     /* Change to a color that stands out */
 }
 

@@ -17,64 +17,75 @@ interface LogisticAllData {
 }
 
 interface RiyoOurCollaborationsProps {
-  logisticAllData?: LogisticAllData;
+  logisticAllData: LogisticAllData;
 }
 
 const RiyoOurCollaborations: React.FC<RiyoOurCollaborationsProps> = ({ logisticAllData }) => {
   const [counterOn, setCounterOn] = useState(false);
 
+  
   return (
-    <div className="flex justify-between items-center p-[9%_4%] bg-gradient-to-r from-primary-orange to-primary-blue text-primary-white md:flex-col md:items-start md:p-[4%_0%] md:grid md:grid-rows-[auto_auto_auto] md:grid-cols-2 md:gap-[0.625rem]">
-      <div className="w-[42%] text-5xl font-bold p-[0%_2%] md:w-full md:text-center  md:row-[1/2] md:col-[1/-1]">
-        <h1><Bounce>{logisticAllData?.collaborations[0].heading}</Bounce></h1>
+    <div className="flex flex-col lg:flex-row lg:justify-between items-center bg-gradient-to-r from-primary-orange to-primary-blue p-4 lg:p-[9%] text-primary-white">
+      <div className="lg:w-[50%] text-center lg:text-left mb-4 lg:mb-0">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light px-2">
+          <Bounce>
+            {logisticAllData?.collaborations[0].heading}
+          </Bounce>
+        </h1>
       </div>
 
-      <div className="text-center font-bold p-[0%_1%] text-5xl w-full md:row-[2/3] md:col-[1/2] md:text-3xl">
+      <div className="text-center mb-4 lg:mb-0 lg:w-[42%]">
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-          <h1>
+          <h1 className="text-3xl sm:text-3.5xl lg:text-5xl font-bold px-1">
             <Bounce>
-              {counterOn && logisticAllData?.collaborations[1].heading2 !== undefined && (
+              {counterOn && (
                 <CountUp
-                  end={logisticAllData.collaborations[1].heading2}
+                  start={0}
+                  end={logisticAllData?.collaborations[1].heading2 || 0}
                   duration={2}
+                  delay={0}
                 />
               )}
             </Bounce>
           </h1>
         </ScrollTrigger>
-        <h3 className="mt-4">{logisticAllData?.collaborations[1].detail}</h3>
+        <h3 className="font-bold mt-4">{logisticAllData?.collaborations[1].detail}</h3>
       </div>
 
-      <div className="text-center font-bold p-[0%_1%] text-5xl w-full md:row-[2/3] md:col-[2/3] md:text-3xl">
+      <div className="text-center mb-4 lg:mb-0 lg:w-[42%]">
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-          <h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold px-1">
             <Bounce>
-              {counterOn && logisticAllData?.collaborations[2].heading3 !== undefined && (
+              {counterOn && (
                 <CountUp
-                  end={logisticAllData.collaborations[2].heading3}
+                  start={0}
+                  end={logisticAllData?.collaborations[2].heading3 || 0}
                   duration={2}
+                  delay={0}
                 />
               )}
             </Bounce>
           </h1>
         </ScrollTrigger>
-        <h3 className="mt-4">{logisticAllData?.collaborations[2].detail}</h3>
+        <h3 className="font-bold mt-4">{logisticAllData?.collaborations[2].detail}</h3>
       </div>
 
-      <div className="text-center font-bold p-[0%_1%] text-5xl w-full md:row-[3/4] md:col-[1/-1] md:text-3xl">
+      <div className="text-center lg:w-[42%]">
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-          <h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold px-1">
             <Bounce>
-              {counterOn && logisticAllData?.collaborations[3].heading4 !== undefined && (
+              {counterOn && (
                 <CountUp
-                  end={logisticAllData.collaborations[3].heading4}
+                  start={0}
+                  end={logisticAllData?.collaborations[3].heading4 || 0}
                   duration={2}
+                  delay={0}
                 />
               )}
             </Bounce>
           </h1>
         </ScrollTrigger>
-        <h3 className="mt-4">{logisticAllData?.collaborations[3].detail}</h3>
+        <h3 className="font-bold mt-4">{logisticAllData?.collaborations[3].detail}</h3>
       </div>
     </div>
   );
