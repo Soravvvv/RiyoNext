@@ -39,10 +39,10 @@ const RiyoLogisticsTestimonials: React.FC<RiyoLogisticsTestimonialsProps> = ({ l
   return (
     <div className="relative overflow-hidden py-2">
       <div className="w-full px-4">
-        <h1 className="text-4.7xl text-primary-blue font-light">
+        <h1 className="text-7xl text-primary-blue font-light mt-10 mb-10 ml-5 ">
           <Bounce>Testimonials</Bounce>
         </h1>
-        <div className="my-1 w-40 h-0.5 bg-gradient-to-r from-primary-orange to-primary-blue rounded-r-full"></div>
+        <div className="my-1 w-40 h-1 bg-gradient-to-r from-primary-orange to-primary-blue rounded-r-full mb-9 ml-5"></div>
       </div>
       <div className="relative h-auto">
         <Slider {...settings} className="pt-2">
@@ -52,29 +52,29 @@ const RiyoLogisticsTestimonials: React.FC<RiyoLogisticsTestimonialsProps> = ({ l
               <div key={index}>
                 <div className="relative px-4 flex items-center bg-primary-blue_tranparent h-49vh">
                   <div className="w-2/3">
-                    <p className="text-lg py-5 leading-7 pr-7 text-primary-grey">{testimonial.paragraph}</p>
-                    <p className="leading-5">
+                    <p className="text-2xl py-7 -mt-6 leading-1 pr-1 text-primary-text_clr">{testimonial.paragraph}</p>
+                    <p className="leading-10 text-primary-text_clr text-2xl">
                       <b>{testimonial.name}<br />
                         {testimonial.director} <br />
                         {testimonial.logistics}
                       </b>
                     </p>
                   </div>
-                  <div className="absolute h-full w-1/3 right-4 bottom-1 object-cover p-1">
+                  <div className="absolute h-full w-1/3 right-4 bottom-1">
                     <div className="absolute top-0 left-0 h-4/5 w-7/10 bg-primary-orange"></div>
                     <div className="absolute h-4/5 w-7/10 right-0 bottom-0 bg-primary-orange"></div>
-                    <Image src={image} className="h-full z-10 relative rounded-md" alt="Testimonial" />
+                    <Image src={image} className="h-full z-1 relative rounded-md" alt="Testimonial" />
                   </div>
                 </div>
               </div>
             );
           })}
         </Slider>
-        <div className="slick-dots absolute bottom-2 left-[-150px] flex space-x-1">
+        <div className="slick-dots absolute bottom-1  flex items-center">
           {/* Dot styling */}
-          <ul className="flex space-x-1">
+          <ul className=" w-1/4 h-10  ml-[25%] flex  ">
             {/* Use Tailwind classes or customize as needed */}
-            <li><button className="text-primary-orange text-xs">•</button></li>
+            <li><button className="text-primary-orange text-xl">•</button></li>
           </ul>
         </div>
       </div>

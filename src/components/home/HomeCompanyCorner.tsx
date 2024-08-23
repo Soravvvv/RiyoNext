@@ -42,68 +42,96 @@ const HomeCompanyCorner: React.FC = () => {
     };
 
     return (
-        <div className="flex w-full h-[100vh]">
-            <div className="flex items-center justify-center w-[20%] overflow-hidden">
-                <div className="relative flex items-center justify-center w-[25rem] h-[25rem] rotate-[45deg] bg-[#f5ad9b] rounded-[1.875rem] left-[-12.5rem] p-[0rem_3.5rem]">
-                    <div className="w-[18.75rem] h-[18.75rem] bg-[#0c4c78] rotate-[90deg] rounded-[1.875rem] left-[-1.25rem]"></div>
+        <div className="flex flex-col md:flex-row w-full h-auto md:h-[100vh]">
+            <div className="flex items-center justify-center w-[55%] h-full  md:w-[20%] overflow-hidden md:h-[65%]  ">
+                <div className="relative flex items-center justify-center w-[15rem] md:w-[25rem] h-[15rem] md:h-[25rem] rotate-[45deg] bg-[#f5ad9b] rounded-[1.875rem]  left-[-7.5rem] md:left-[-12.5rem] p-0 md:p-[0rem_3.5rem]">
+                    <div className="w-[11.25rem] md:w-[18.75rem] h-[11.25rem] md:h-[18.75rem] bg-[#0c4c78] rotate-[90deg] rounded-[1.875rem] left-[0.75rem] md:left-[-1.25rem]"></div>
                 </div>
             </div>
-
-            <div className="w-[70%] hidden md:block">
+            <div className="w-full md:w-[70%]">
                 <div className="flex flex-col items-center justify-center h-[10vh] w-full mb-2">
-                    <div className="flex flex-col items-center justify-center w-1/2 mt-10">
-                        <h1 className="mt-5 text-[#0c4c78] font-bold text-3xl">Company Corner</h1>
-                        <div className="w-[40%] h-[0.5rem] mt-2 rounded bg-gradient-to-r from-[#ee6c4d] to-[#0c4c78] mb-10"></div>
+                    <div className="flex flex-col items-center justify-center w-full md:w-1/2 md:mt-10">
+                        <h1 className="mt-5 text-[#0c4c78] font-bold text-2xl md:text-3xl">Company Corner</h1>
+                        <div className="w-[60%] md:w-[40%] h-[0.25rem] md:h-[0.5rem] mt-2 rounded bg-gradient-to-r from-[#ee6c4d] to-[#0c4c78] mb-10"></div>
                     </div>
                 </div>
 
+
                 <Slider {...settings}>
-                    <div className="relative flex flex-col items-center justify-start py-5 w-[18.625rem] h-[90%]">
-                        <div className="w-[17.875rem] h-[17.5rem] rounded-[0.3125rem] shadow-sm bg-[#ee6c4d4d] overflow-hidden object-cover sliderimage1 "></div>
-                        <div className="mt-3 w-[17.8125rem] h-[9.375rem]">
-                            <p className="text-lg font-normal text-[#505050]">Adhiraj Mishra <br /><span className="text-sm font-bold text-[#ee6c4d]">Chief Of Marketing</span></p>
+                    <div className="relative flex flex-col justify-between  items-center w-[16rem] md:w-[18.625rem] h-[18rem] md:h-[22rem]">
+
+                        <div className="w-[15.875rem] h-[14.5rem] md:w-[17.875rem] md:h-[17.5rem] rounded-[0.3125rem] shadow-lg bg-white  absolute ">
+                            <div className='absolute h-[70%] w-[70%] rounded-lg top-0 left-0 bg-primary-orangefade z-40'></div>
+                            <div className='sliderimage1 h-[70%] w-[70%] rounded-lg shadow-sm absolute top-[2.6vw] left-[2.6vw] z-50'></div>
+                        </div>
+                        <div className=" absolute left-0 top-[82%] w-[15.8125rem] md:w-[17.8125rem] h-[9.375rem]">
+                            <p className="text-base md:text-lg font-normal text-[#505050]">Adhiraj Mishra <br /><span className="text-sm font-bold text-[#ee6c4d]">Chief Of Marketing</span></p>
                         </div>
                     </div>
 
-                    <div className="relative flex flex-col items-center py-5 justify-start w-[18.625rem] h-[90%]">
-                        <div className="w-[17.875rem] h-[17.5rem] rounded-[0.3125rem] shadow-sm bg-[#ee6c4d4d] overflow-hidden object-cover sliderimage11 "></div>
-                        <div className="mt-3 w-[17.8125rem] h-[9.375rem]">
-                            <p className="text-lg font-normal text-[#505050]">Satyabrata Saha <br /><span className="text-sm font-bold text-[#ee6c4d]">Customer Relation Manager</span></p>
+                    <div className="relative flex flex-col justify-between  items-center w-[16rem] md:w-[18.625rem] h-[18rem] md:h-[22rem]">
+
+                        <div className="w-[15.875rem] h-[14.5rem] md:w-[17.875rem] md:h-[17.5rem] rounded-[0.3125rem] shadow-lg bg-white  absolute ">
+                            <div className='absolute h-[70%] w-[70%] rounded-lg bottom-0 right-0 bg-primary-blue_tranparent_25 z-40'></div>
+                            <div className='sliderimage2 h-[70%] w-[70%] rounded-lg shadow-sm absolute top-[2.6vw] left-[2.6vw] z-50'></div>
+                        </div>
+                        <div className=" absolute left-0 top-[82%] w-[15.8125rem] md:w-[17.8125rem] h-[9.375rem]">
+                            <p className="text-base md:text-lg font-normal text-[#505050]">Nivedita Tiwari <br /><span className="text-sm font-bold text-[#ee6c4d]">Director</span></p>
                         </div>
                     </div>
 
-                    <div className="relative flex flex-col items-center py-5 justify-start w-[18.625rem] h-[90%]">
-                        <div className="w-[17.875rem] h-[17.5rem] rounded-[0.3125rem] shadow-sm bg-[#ee6c4d4d] overflow-hidden object-cover sliderimage2 "></div>
-                        <div className="mt-3 w-[17.8125rem] h-[9.375rem]">
-                            <p className="text-lg font-normal text-[#505050]">Nivedita Tiwari <br /><span className="text-sm font-bold text-[#ee6c4d]">Director</span></p>
+                    <div className="relative flex flex-col justify-between  items-center w-[16rem] md:w-[18.625rem] h-[18rem] md:h-[22rem]">
+
+                        <div className="w-[15.875rem] h-[14.5rem] md:w-[17.875rem] md:h-[17.5rem] rounded-[0.3125rem] shadow-lg bg-white  absolute ">
+                            <div className='absolute h-[70%] w-[70%] rounded-lg top-0 left-0 bg-primary-orangefade z-40'></div>
+                            <div className='sliderimage3 h-[70%] w-[70%] rounded-lg shadow-sm absolute top-[2.6vw] left-[2.6vw] z-50'></div>
+                        </div>
+                        <div className="absolute left-0 top-[82%] w-[15.8125rem] md:w-[17.8125rem] h-[9.375rem]">
+                            <p className="text-base md:text-lg font-normal text-[#505050]">Sujit Mishra  <br /><span className="text-sm font-bold text-[#ee6c4d]">CEO</span></p>
                         </div>
                     </div>
 
-                    <div className="relative flex flex-col items-center py-5 justify-start w-[18.625rem] h-[90%]">
-                        <div className="w-[17.875rem] h-[17.5rem] rounded-[0.3125rem] shadow-sm bg-[#ee6c4d4d] overflow-hidden object-cover sliderimage3 "></div>
-                        <div className="mt-3 w-[17.8125rem] h-[9.375rem]">
-                            <p className="text-lg font-normal text-[#505050]">Sujit Mishra <br /><span className="text-sm font-bold text-[#ee6c4d]">CEO</span></p>
+                    <div className="relative flex flex-col justify-between  items-center w-[16rem] md:w-[18.625rem] h-[18rem] md:h-[22rem]">
+
+                        <div className="w-[15.875rem] h-[14.5rem] md:w-[17.875rem] md:h-[17.5rem] rounded-[0.3125rem] shadow-lg bg-white  absolute ">
+                            <div className='absolute h-[70%] w-[70%] rounded-lg bottom-0 right-0 bg-primary-blue_tranparent_25 z-40'></div>
+                            <div className='sliderimage6 h-[70%] w-[70%] rounded-lg shadow-sm absolute top-[2.6vw] left-[2.6vw] z-50'></div>
+                        </div>
+                        <div className="absolute left-0 top-[82%] w-[15.8125rem] md:w-[17.8125rem] h-[9.375rem]">
+                            <p className="text-base md:text-lg font-normal text-[#505050]">Kunal Dey <br /><span className="text-sm font-bold text-[#ee6c4d]">Operation Head</span></p>
                         </div>
                     </div>
 
-                    <div className="relative flex flex-col items-center py-5 justify-start w-[18.625rem] h-[90%]">
-                        <div className="w-[17.875rem] h-[17.5rem] rounded-[0.3125rem] shadow-sm bg-[#ee6c4d4d] overflow-hidden object-cover sliderimage6 "></div>
-                        <div className="mt-3 w-[17.8125rem] h-[9.375rem]">
-                            <p className="text-lg font-normal text-[#505050]">Kunal Dey <br /><span className="text-sm font-bold text-[#ee6c4d]">Operation Head</span></p>
+                    <div className="relative flex flex-col justify-between  items-center w-[16rem] md:w-[18.625rem] h-[18rem] md:h-[22rem]">
+
+                        <div className="w-[15.875rem] h-[14.5rem] md:w-[17.875rem] md:h-[17.5rem] rounded-[0.3125rem] shadow-lg bg-white  absolute ">
+                            <div className='absolute h-[70%] w-[70%] rounded-lg top-0 left-0 bg-primary-orangefade z-40'></div>
+                            <div className='sliderimage8 h-[70%] w-[70%] rounded-lg shadow-sm absolute top-[2.6vw] left-[2.6vw] z-50'></div>
+                        </div>
+                        <div className="absolute left-0 top-[82%] w-[15.8125rem] md:w-[17.8125rem] h-[9.375rem]">
+                            <p className="text-base md:text-lg font-normal text-[#505050]">Ratul Dutta <br /><span className="text-sm font-bold text-[#ee6c4d]">Customer Relation Manager</span></p>
                         </div>
                     </div>
 
-                    <div className="relative flex flex-col items-center py-5 justify-start w-[18.625rem] h-[90%]">
-                        <div className="w-[17.875rem] h-[17.5rem] rounded-[0.3125rem] shadow-sm bg-[#ee6c4d4d] overflow-hidden object-cover sliderimage8 "></div>
-                        <div className="mt-3 w-[17.8125rem] h-[9.375rem]">
-                            <p className="text-lg font-normal text-[#505050]">Ratul Dutta <br /><span className="text-sm font-bold text-[#ee6c4d]">Customer Relation Manager</span></p>
+                    <div className="relative flex flex-col justify-between  items-center w-[16rem] md:w-[18.625rem] h-[18rem] md:h-[22rem]">
+
+                        <div className="w-[15.875rem] h-[14.5rem] md:w-[17.875rem] md:h-[17.5rem] rounded-[0.3125rem] shadow-lg bg-white  absolute ">
+                            <div className='absolute h-[70%] w-[70%] rounded-lg bottom-0 right-0 bg-primary-blue_tranparent_25 z-40'></div>
+                            <div className='sliderimage11 h-[70%] w-[70%] rounded-lg shadow-sm absolute top-[2.6vw] left-[2.6vw] z-50'></div>
+                        </div>
+                        <div className=" absolute left-0 top-[82%] w-[15.8125rem] md:w-[17.8125rem] h-[9.375rem]">
+                            <p className="text-base md:text-lg font-normal text-[#505050]">Satyabrata Saha <br /><span className="text-sm font-bold text-[#ee6c4d]">Customer Relation Manager</span></p>
                         </div>
                     </div>
 
-                    <div className="relative flex flex-col items-center py-5 justify-start w-[18.625rem] h-[90%]">
-                        <div className="w-[17.875rem] h-[17.5rem] rounded-[0.3125rem] shadow-sm bg-[#ee6c4d4d] overflow-hidden object-cover sliderimage9 "></div>
-                        <div className="mt-3 w-[17.8125rem] h-[9.375rem]">
-                            <p className="text-lg font-normal text-[#505050]">Priya Majumder <br /><span className="text-sm font-bold text-[#ee6c4d]">Customer Relation Executive</span></p>
+                    <div className="relative flex flex-col justify-between  items-center w-[16rem] md:w-[18.625rem] h-[18rem] md:h-[22rem]">
+
+                        <div className="w-[15.875rem] h-[14.5rem] md:w-[17.875rem] md:h-[17.5rem] rounded-[0.3125rem] shadow-lg bg-white  absolute ">
+                            <div className='absolute h-[70%] w-[70%] rounded-lg top-0 left-0 bg-primary-orangefade z-40'></div>
+                            <div className='sliderimage9 h-[70%] w-[70%] rounded-lg shadow-sm absolute top-[2.6vw] left-[2.6vw] z-50'></div>
+                        </div>
+                        <div className=" absolute left-0 top-[82%] w-[15.8125rem] md:w-[17.8125rem] h-[9.375rem]">
+                            <p className="text-base md:text-lg font-normal text-[#505050]">Priya Majumder <br /><span className="text-sm font-bold text-[#ee6c4d]">Customer Relation Manager</span></p>
                         </div>
                     </div>
                 </Slider>
