@@ -40,7 +40,7 @@ const HomeSection2: React.FC = () => {
         </div>
 
         {/* Design Pattern */}
-        <div className="w-full lg:w-[20%] h-[30vh] lg:h-[70vh] md:flex items-center overflow-hidden mt-8 lg:mt-0 absolute -right-[50%] top-[14%]">
+        <div className="w-full lg:w-[20%] h-[30vh] lg:h-[70vh] md:flex items-center  mt-8 lg:mt-0 absolute -right-[50%] top-[20%]">
           <div className="w-[250px] lg:w-[400px] h-[250px] lg:h-[400px] rounded-[30px] rotate-45 bg-[#f5ad9b] relative right-[-80px] lg:right-[-148px]">
             <div className="w-[200px] lg:w-[350px] h-[200px] lg:h-[350px] rounded-[30px] rotate-90 bg-[#0c4c78] relative right-[-10px] lg:right-[-20px]"></div>
           </div>

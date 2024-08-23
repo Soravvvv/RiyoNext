@@ -60,6 +60,8 @@ const config: Config = {
       clipPath: {
         'custom-1': 'polygon(0 0, 100% 16%, 100% 86%, 0% 100%)',
         'custom-2': 'polygon(0 16%, 100% 0, 100% 100%, 0 88%)',
+        'custom-3': 'polygon(0 0, 100% 0%, 95% 100%, 5% 100%)',
+        'custom-4': 'polygon(7% 0%, 0% 100%, 100% 100%, 93% 0%)',
       },
       keyframes: {
         rotate: {

@@ -5,49 +5,46 @@ import { useRouter } from 'next/navigation';
 // import { setCurrentPage } from '@/store/features/CurrentPages'; // Adjust the path according to your structure
 
 const RiyoBusinessSection: FC = () => {
-//   const dispatch = useAppDispatch();
-
-const router = useRouter();
+  // const dispatch = useAppDispatch();
+  const router = useRouter();
 
   const handle = (value: string) => {
     router.push(`/riyologistics/riyo_business`);
   };
 
   return (
-    <div className="h-[86vh] w-full flex justify-center items-center">
-      <div className="h-[75vh] w-[94%] flex justify-center items-center">
-      
-        <div className="h-[75vh] w-[50%] flex justify-end items-center">
-          <div className="h-[90%] w-[90%] flex flex-col gap-4">
-            <div className="h-[21%] w-full flex items-center relative">
+    <div className="h-auto lg:h-[86vh] w-full flex flex-col lg:flex-row justify-center items-center">
+    <div className="h-auto lg:h-[75vh] w-full lg:w-[94%] py-7 flex flex-col lg:flex-row justify-center items-center">
+      <div className="h-[35vh] lg:h-[70vh] w-[90%] md:w-full lg:w-[45%] relative flex  lg:justify-start mb-6 lg:mb-0">
+        <div className="h-full w-[80%] lg:w-[60%] bg-primary-orange rounded-lg">
+          <div className="riyo-services-imgbox2"></div>
+        </div>
+      </div>
+      <div className="h-auto lg:h-[75vh] w-full lg:w-[50%] flex justify-center lg:justify-end items-center">
+        <div className="h-auto lg:h-[90%] w-[90%] flex flex-col gap-4">
+          <div className="h-auto lg:h-[21%] w-full flex items-center p-2 lg:justify-start relative">
             {/* <div className="h-[5.25rem] w-[5.25rem] rounded-full bg-gradient-to-r from-primary-darkblue to-primary-orange animate-rotate"></div> */}
-              <h1 className="text-[3.7rem] text-primary-darkblue font-bold font-arial">RIYO Business</h1>
-            </div>
-            <div className="h-[84%] w-full flex flex-col gap-4 text-black">
-              <p className="text-[1.2rem] leading-[2rem]">
-                <span className="text-primary-darkblue font-bold">At</span>{' '}
-                <span className="text-primary-orange font-bold">RIYO BUSINESS,</span> is an innovative mobile application
-                designed to empower lorry brokers by providing them with a comprehensive platform to expand and enhance
-                their business. With RIYO Business, lorry brokers gain access to a range of powerful tools and features
-                tailored to their needs, enabling them to efficiently manage their operations, connect with clients, and
-                secure profitable business opportunities.
-              </p>
-              
-                <button
-                  onClick={() => handle("riyoLogisticData")}
-                  className="h-[4.6rem] w-[15rem] bg-primary-darkblue text-primary-white text-[1.4rem] rounded-md shadow-md"
-                >
-                  Know more
-                </button>
+            <h1 className="text-[2rem] lg:text-[3.7rem] text-primary-darkblue absolute font-bold font-sans text-center lg:text-left">RIYO Business</h1>
+          </div>
+          <div className="h-auto lg:h-[84%] w-full flex flex-col gap-4">
+            <p className="text-[1rem] lg:text-[1.2rem] text-primary-black font-sans leading-[2rem] text-start  lg:text-left">
+              <span className="text-primary-darkblue font-bold">At</span>
+              <span className="font-bold  text-primary-orange"> RIYO BUSINESS,</span> is an innovative mobile application designed to empower lorry brokers by providing them with a comprehensive platform to expand and enhance their business. With RIYO Business, lorry brokers gain access to a range of powerful tools and features tailored to their needs, enabling them to efficiently manage their operations, connect with clients, and secure profitable business opportunities.
+            </p>
+
+            <div className="flex justify-start">
+              <button
+                onClick={() => handle("riyoLogisticData")}
+                className="h-[3.5rem] lg:h-[4.6rem] w-[10rem] lg:w-[15rem] bg-primary-darkblue text-primary-white text-[1rem] lg:text-[1.4rem] rounded-md shadow-md border-none cursor-pointer"
+              >
+                Know more
+              </button>
             </div>
           </div>
         </div>
-        <div className="h-[70vh] w-[43%] flex relative">
-          <div className="h-full w-[60%] bg-primary-orange rounded-md"></div>
-          <div className="riyo-business-imgbox2"></div>
-        </div>
       </div>
     </div>
+  </div>
   );
 };
 

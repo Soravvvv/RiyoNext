@@ -34,12 +34,12 @@ const AboutBusiness: React.FC = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
-          <div className="h-[50vh] md:h-[60vh] w-[90%] md:w-[80%] flex flex-wrap gap-[1rem] md:gap-[2.1875rem] justify-end">
-            <div className="h-[24vh] md:h-[60vh] w-[45%] md:w-[35%] rounded-[0.5rem] flex flex-col gap-[1rem] md:gap-[1.5625rem] justify-end">
+          <div className="md:h-[60vh] w-[90%] md:w-[80%] flex flex-wrap gap-[1rem] md:gap-[2.1875rem] justify-end">
+            <div className="h-[50vh] md:h-[60vh] w-[45%] md:w-[35%] rounded-[0.5rem] flex flex-col gap-[1rem] md:gap-[1.5625rem] justify-end">
               <div className="custom-image-box h-[12vh] md:h-[30vh]"></div>
               <div className="custom-image-box2 h-[12vh] md:h-[30vh]"></div>
             </div>
-            <div className="h-[24vh] md:h-[60vh] w-[45%] md:w-[35%] rounded-[0.5rem] flex flex-col gap-[1rem] md:gap-[1.5625rem] justify-start">
+            <div className="h-[50vh] md:h-[60vh] w-[45%] md:w-[35%] rounded-[0.5rem] flex flex-col gap-[1rem] md:gap-[1.5625rem] justify-start">
               <div className="custom-image-box3 h-[12vh] md:h-[30vh]"></div>
               <div className="custom-image-box4 h-[12vh] md:h-[30vh]"></div>
             </div>
