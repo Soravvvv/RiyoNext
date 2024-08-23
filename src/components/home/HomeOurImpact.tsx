@@ -24,7 +24,7 @@ export default function HomeAouImpact() {
           </div>
         </div>
 
-        <div className="flex w-[90%] justify-evenly mt-8 flex-wrap">
+        <div className="flex w-[90%] justify-evenly mt-8 md:flex-wrap">
           {[
             { end: 225, label: 'Industries' },
             { end: 1467, label: 'Transport Companies' },
@@ -42,7 +42,7 @@ export default function HomeAouImpact() {
                     onEnter={() => setCounterOn(true)}
                     onExit={() => setCounterOn(false)}
                   >
-                    <h1 className="text-2xl md:text-4xl font-bold text-blue-800">
+                    <h1 className="text-2xl md:text-4xl font-bold text-primary-blue">
                       {counterOn && (
                         <CountUp  end={item.end} duration={0.5} />
                       )}

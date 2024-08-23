@@ -5,7 +5,7 @@ import OurPresencemap from '../../../public/Image/logo/Map.png';
 
 const HomeOurPresence: React.FC = () => {
   return (
-    <div className="w-full h-auto flex flex-col items-center sm:h-[80vh] bgpresence sm:flex-row sm:justify-around sm:items-center ">
+    <div className="w-full h-auto flex flex-col items-center sm:h-[80vh] px-5 bgpresence sm:flex-row sm:justify-around sm:items-center ">
       <div className="md:w-[45%] w-full text-primary-white">
         <div className="flex flex-col">
             <motion.h1
