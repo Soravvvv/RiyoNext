@@ -26,38 +26,14 @@ interface RiyoPackageProps {
   logisticAllData: LogisticData | undefined;
 }
 
-interface RootState {
-  Data: {
-    currentPage: string;
-  };
-}
-
 const RiyoPackage: React.FC<RiyoPackageProps> = ({ logisticAllData }) => {
   const [hidecard, setHidecard] = useState<boolean>(true);
   const [hidecards, setHidecards] = useState<boolean>(true);
-  // const currentPage = useSelector((state: RootState) => state.Data.currentPage);
-
-  // useEffect(() => {
-  //   if (currentPage === "RiyoBusinessData") {
-  //     setHidecard(false);
-  //   } else {
-  //     setHidecard(true);
-  //   }
-  //   if (currentPage === "RiyoShurakhshaData") {
-  //     setHidecards(false);
-  //     setHidecard(false);
-  //   } else {
-  //     setHidecards(true);
-  //   }
-  //   if (currentPage === "RiyoParivaarData") {
-  //     setHidecards(false);
-  //     setHidecard(false);
-  //   }
-  // }, [currentPage]);
 
   return (
-    <div className="p-8 flex items-center h-[100vh] bg-gradient-to-r from-primary-orange to-primary-blue flex-col lg:flex-row">
-      <div className="w-full lg:w-2/5 flex flex-col text-primary-white font-bold leading-4">
+    <div className="p-8 flex items-center min-h-[100vh] bg-gradient-to-r from-primary-orange to-primary-blue flex-col lg:flex-row">
+      {/* Heading Section */}
+      <div className="w-full lg:w-2/5 flex flex-col text-primary-white font-bold mb-8 lg:mb-0">
         <Slide>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-10xl font-medium text-primary-blue text-left">
             {logisticAllData?.Parivahan.Heading}
@@ -67,9 +43,11 @@ const RiyoPackage: React.FC<RiyoPackageProps> = ({ logisticAllData }) => {
           </h2>
         </Slide>
       </div>
-      <div className="w-full h-[80vh] lg:w-3/5 flex justify-end gap-8">
+
+      {/* Cards Section */}
+      <div className="w-full lg:w-3/5 flex flex-col lg:flex-row gap-8">
         {hidecard && (
-          <div className="w-full lg:w-[46%] bg-primary-white relative rounded-lg">
+          <div className="w-full lg:w-[46%] bg-primary-white relative rounded-lg mb-8 lg:mb-0">
             <div className="bg-primary-orange rounded-t-lg py-4 text-center font-bold text-primary-white">
               <h3 className="font-semibold">{logisticAllData?.Parivahan.card1.topHeading}</h3>
             </div>
@@ -95,7 +73,6 @@ const RiyoPackage: React.FC<RiyoPackageProps> = ({ logisticAllData }) => {
                 <p className="font-normal">{res}</p>
               </div>
             ))}
-            
             <div className="bg-primary-blue rounded-b-lg py-4 text-center font-bold text-primary-white absolute bottom-0 w-full">
               <h3>{logisticAllData?.Parivahan.card2.bottomHeading}</h3>
             </div>

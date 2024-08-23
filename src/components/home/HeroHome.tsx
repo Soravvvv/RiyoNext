@@ -105,7 +105,7 @@ const HeroHome = () => {
                 </div>
                 <div className="justify-between  w-full h-full flex flex-col items-center ">
                     <div className="w-full h-4/5 flex flex-col justify-around items-center">
-                        <div className=" w-24 h-11 opacity-100 z-10 rounded flex justify-center items-center font-bold text-lg cursor-pointer text-primary-orange  border-2 border-primary-orange">
+                        <div className=" w-24 h-11 opacity-100 z-10  rounded flex justify-center items-center font-bold text-lg cursor-pointer text-primary-orange border-2 border-primary-orange">
                             <Link href="https://riyorentitoverindia.in/">
                                 Log in
                             </Link>
@@ -294,7 +294,7 @@ const HeroHome = () => {
                                         <div className="md:w-96 w-20 md:h-2 h-2 rounded bg-[linear-gradient(to_right,_#ee6c4d,_#0c4c78)] mt-2"></div>
                                     </div>
                                     {/* class,ate */}
-                                    <h1 className="md:w-[60%] h-full rounded-[2rem] md:pl-20 md:text-[4.75rem] text-[2rem] leading-none font-normal text-[#ffffff] bg-[linear-gradient(to_right,_#ee6c4d,_#0c4c78)] md:mt-10 text-start p-6 ">
+                                    <h1 className="md:w-[80%] h-full rounded-[2rem] md:pl-20 md:text-[4.75rem] text-[1.5rem] leading-none font-normal text-[#ffffff] bg-[linear-gradient(to_right,_#ee6c4d,_#0c4c78)] md:mt-10 text-start p-6 ">
                                         Transport Company
                                     </h1>
                                     <p className="text-base mb-4 text-primary-white mt-9">

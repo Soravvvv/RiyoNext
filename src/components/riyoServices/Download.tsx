@@ -26,10 +26,10 @@ const Download: FC = () => {
 
             <div className="flex flex-col items-center justify-around h-1/4 w-full p-1 border border-primary-black shadow-lg rounded-md">
               <div className="flex justify-center gap-5">
-                <div className="flex justify-center items-center h-12 w-12 border-primary-darkblue rounded-full">
+                <div className="flex justify-center items-center h-12 w-12 bg-primary-darkblue rounded-full">
                   <BiSolidLike className="text-primary-white text-lg" />
                 </div>
-                <div className="flex justify-center items-center h-12 w-12 border-primary-darkblue rounded-full">
+                <div className="flex justify-center items-center h-12 w-12 bg-primary-darkblue rounded-full">
                   <BiSolidDislike className="text-primary-white text-lg" />
                 </div>
               </div>

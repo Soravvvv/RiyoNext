@@ -18,35 +18,39 @@ interface RiyoLogisticsGetInTouchProps {
 
 const RiyoLogisticsGetInTouch: React.FC<RiyoLogisticsGetInTouchProps> = ({ logisticAllData }) => {
   return (
-    <div className="relative flex items-center z-3 bg-gradient-to-r from-primary-orange to-primary-blue text-primary-white my-16 py-0 px-16 h-[65vh]">
-      <div className="relative z-3 w-3/5">
-        <h1 className="text-[6rem] font-semibold">
+    <div className="relative flex flex-col lg:flex-row items-center z-3 bg-gradient-to-r from-primary-orange to-primary-blue text-primary-white my-16 py-8 px-4 lg:px-16 h-auto lg:h-[65vh]">
+      {/* Text Section */}
+      <div className="relative z-3 w-full lg:w-3/5 text-center lg:text-left mb-8 lg:mb-0">
+        <h1 className="text-4xl mb-3 sm:text-5xl md:text-6xl lg:text-[6rem] font-semibold">
           <Bounce>{logisticAllData?.contact.heading}</Bounce>
         </h1>
       </div>
-      <div className="relative z-3 w-1/2">
-        <div className="flex items-center gap-4 z-3">
+
+      {/* Contact Information Section */}
+      <div className="relative z-3 w-full lg:w-1/2">
+        <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6 lg:mb-0">
           <a href={`tel:${logisticAllData?.contact.mobilenumber}`} className="flex items-center gap-4">
-            <div className="h-[50px] w-[50px] bg-gradient-to-br from-primary-blue to-primary-orange flex justify-center items-center rounded-full cursor-pointer transition-shadow duration-200 hover:shadow-primary-white">
-              <LuPhone size={20} className="text-primary-white" />
+            <div className="h-[40px] w-[40px] bg-gradient-to-br from-primary-blue to-primary-orange flex justify-center items-center rounded-full cursor-pointer transition-shadow duration-200 hover:shadow-primary-white">
+              <LuPhone size={18} className="text-primary-white" />
             </div>
-            <p className="text-lg">{logisticAllData?.contact.mobilenumber}</p>
+            <p className="text-[0.8rem] lg:text-lg">{logisticAllData?.contact.mobilenumber}</p>
           </a>
-        </div>
-        <br className="hidden sm:block" />
-        <br className="hidden sm:block" />
-        <br />
-        <div className="flex items-center gap-4 z-3">
+          </div>
+          <br className='hidden sm:block'/>
+          <br className='hidden sm:block'/>
+        <div className="flex flex-col md:flex-row md:items-center gap-4 z-3">
           <a href={`mailto:${logisticAllData?.contact.email}`} className="flex items-center gap-4">
-            <div className="h-[50px] w-[50px] bg-gradient-to-br from-primary-blue to-primary-orange flex justify-center items-center rounded-full cursor-pointer transition-shadow duration-200 hover:shadow-primary-white">
-              <CiMail size={20} className="text-white" />
+            <div className="h-[40px] w-[40px] bg-gradient-to-br from-primary-blue to-primary-orange flex justify-center items-center rounded-full cursor-pointer transition-shadow duration-200 hover:shadow-primary-white">
+              <CiMail size={18} className="text-white" />
             </div>
-            <p className="text-lg">{logisticAllData?.contact.email}</p>
+            <p className="text-[0.8rem] lg:text-lg">{logisticAllData?.contact.email}</p>
           </a>
         </div>
       </div>
-      <div className="absolute right-20 z-2">
-        <Image src={Logo} alt="Riyo Logistics Logo" width={150} height={100} />
+
+      {/* Logo Section */}
+      <div className="absolute right-4 lg:right-20 bottom-4 lg:top-[10rem] z-2">
+        <Image src={Logo} alt="Riyo Logistics Logo" width={120} height={80} />
       </div>
     </div>
   );

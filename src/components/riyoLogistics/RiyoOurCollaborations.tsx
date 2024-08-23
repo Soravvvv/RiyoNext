@@ -23,20 +23,20 @@ interface RiyoOurCollaborationsProps {
 const RiyoOurCollaborations: React.FC<RiyoOurCollaborationsProps> = ({ logisticAllData }) => {
   const [counterOn, setCounterOn] = useState(false);
 
-  
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between items-center bg-gradient-to-r from-primary-orange to-primary-blue p-4 lg:p-[9%] text-primary-white">
-      <div className="lg:w-[50%] text-center lg:text-left mb-4 lg:mb-0">
+    <div className="flex flex-col lg:flex-row lg:justify-between items-center bg-gradient-to-r from-primary-orange to-primary-blue p-6 lg:p-[9%] text-primary-white">
+      
+      {/* Heading Section */}
+      <div className="lg:w-[50%] text-center lg:text-left mb-6 lg:mb-0">
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light px-2">
-          <Bounce>
-            {logisticAllData?.collaborations[0].heading}
-          </Bounce>
+          <Bounce>{logisticAllData?.collaborations[0].heading}</Bounce>
         </h1>
       </div>
-
-      <div className="text-center mb-4 lg:mb-0 lg:w-[42%]">
+      
+      {/* Counter Section 1 */}
+      <div className="w-full text-center mb-6 lg:mb-0 lg:w-[25%]">
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-          <h1 className="text-3xl sm:text-3.5xl lg:text-5xl font-bold px-1">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold px-1">
             <Bounce>
               {counterOn && (
                 <CountUp
@@ -49,10 +49,13 @@ const RiyoOurCollaborations: React.FC<RiyoOurCollaborationsProps> = ({ logisticA
             </Bounce>
           </h1>
         </ScrollTrigger>
-        <h3 className="font-bold mt-4">{logisticAllData?.collaborations[1].detail}</h3>
+        <h3 className="font-bold mt-2 sm:mt-4 text-base sm:text-lg">
+          {logisticAllData?.collaborations[1].detail}
+        </h3>
       </div>
-
-      <div className="text-center mb-4 lg:mb-0 lg:w-[42%]">
+      
+      {/* Counter Section 2 */}
+      <div className="w-full text-center mb-6 lg:mb-0 lg:w-[25%]">
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold px-1">
             <Bounce>
@@ -67,10 +70,13 @@ const RiyoOurCollaborations: React.FC<RiyoOurCollaborationsProps> = ({ logisticA
             </Bounce>
           </h1>
         </ScrollTrigger>
-        <h3 className="font-bold mt-4">{logisticAllData?.collaborations[2].detail}</h3>
+        <h3 className="font-bold mt-2 sm:mt-4 text-base sm:text-lg">
+          {logisticAllData?.collaborations[2].detail}
+        </h3>
       </div>
-
-      <div className="text-center lg:w-[42%]">
+      
+      {/* Counter Section 3 */}
+      <div className="w-full text-center lg:w-[25%]">
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold px-1">
             <Bounce>
@@ -85,7 +91,9 @@ const RiyoOurCollaborations: React.FC<RiyoOurCollaborationsProps> = ({ logisticA
             </Bounce>
           </h1>
         </ScrollTrigger>
-        <h3 className="font-bold mt-4">{logisticAllData?.collaborations[3].detail}</h3>
+        <h3 className="font-bold mt-2 sm:mt-4 text-base sm:text-lg">
+          {logisticAllData?.collaborations[3].detail}
+        </h3>
       </div>
     </div>
   );

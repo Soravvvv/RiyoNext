@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
 
         <div className="hidden md:block h-[11rem] w-px bg-primary-white"></div>
 
-        <div className="mt-6 p-2 h-auto md:h-[15rem]  w-full md:w-auto md:block flex justify-center items-center">
+        <div className="mt-6 p-2 h-auto md:h-[15rem]  w-full md:w-auto md:block flex flex-col justify-center items-center">
           <h1 className="cursor-pointer text-primary-white md:text-3xl text-xl" onClick={toggleMainLinks}>Main Links</h1>
           <div className={`mt-4 ${isMainLinksOpen ? 'block' : 'hidden'} md:block`}>
             <p className='cursor-pointer p-2' onClick={scrollTop}><Link href="/">Home</Link></p>
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
 
         <div className="hidden md:block h-[11rem] w-px bg-primary-white"></div>
 
-        <div className="mt-6 p-2 h-auto md:h-[15rem] w-full md:w-auto  md:block flex justify-center items-center">
+        <div className="mt-6 p-2 h-auto md:h-[15rem] w-full md:w-auto  md:block flex flex-col justify-center items-center">
           <h1 className="cursor-pointer text-primary-white md:text-3xl text-xl" onClick={toggleQuickLinks}>Quick Links</h1>
           <div className={`mt-4 ${isQuickLinksOpen ? 'block' : 'hidden'} md:block`}>
             <p className='cursor-pointer p-2'>Blog</p>
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
 
         <div className="hidden md:block h-[11rem] w-px bg-primary-white"></div>
 
-        <div className="mt-6 p-2 h-auto md:h-[15rem] w-full md:w-auto  md:block flex justify-center items-center pb-10">
+        <div className="mt-6 p-2 h-auto md:h-[15rem] w-full md:w-auto  md:block flex flex-col justify-center items-center pb-5">
           <h1 className="cursor-pointer text-primary-white md:text-3xl text-xl" onClick={toggleSupportLinks}>Support</h1>
           <div className={`mt-4 ${isSupportLinksOpen ? 'block' : 'hidden'} md:block`}>
             <p className='cursor-pointer p-2' onClick={scrollTop}><Link href="/contactus">Contact us</Link></p>
