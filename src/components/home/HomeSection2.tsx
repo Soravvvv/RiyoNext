@@ -1,19 +1,20 @@
 "use client";
 import Image from 'next/image';
 import anima from '../../../public/Image/home/homesectionanimation.gif';
-// import bgRiyoBusiness2 from '../../../public/Image/riyobusiness/RiyoBusiness2.jpeg'
 
 const HomeSection2: React.FC = () => {
   return (
     <>
       <div className="w-full flex flex-col lg:flex-row lg:h-[80%] gap-[0.1%] relative overflow-hidden">
 
+        {/* Left Section */}
         <div className="w-full lg:w-[35%] flex justify-center items-center order-2 md:order-1 z-10">
           <div className="w-[95%] flex">
             <div className="md:mt-[35%] mt-2 lg:mt-[20%] h-60 lg:h-[20rem] w-full bg-cover bgRiyoBusiness2"></div>
           </div>
         </div>
 
+        {/* Middle Section */}
         <div className="w-full lg:w-[50%] flex flex-col justify-center items-center px-4 lg:px-0 order-1 md:order-2 z-10">
           <div className="mt-8 lg:mt-[10%] w-full flex md:flex-col lg:flex-row items-center gap-4">
             <div className="flex justify-center items-center h-20 w-20 lg:h-28 lg:w-28 rounded-[5px] bg-[#0c4c78] relative">
@@ -44,6 +45,14 @@ const HomeSection2: React.FC = () => {
             <div className="w-[200px] lg:w-[350px] h-[200px] lg:h-[350px] rounded-[30px] rotate-90 bg-[#0c4c78] relative right-[-10px] lg:right-[-20px]"></div>
           </div>
         </div>
+
+        {/* New Right Section */}
+        <div className="md:flex items-center justify-center w-[55%] h-full md:w-[25%] overflow-hidden md:h-[100%] rotate-[180deg] absolute hidden right-[-9%] top-8 z-20">
+          <div className="relative flex items-center justify-center w-[15rem] md:w-[25rem] h-[15rem] md:h-[25rem] rotate-[45deg] bg-[#f5ad9b] rounded-[1.875rem] left-[-7.5rem] md:right-0 p-0 md:p-[0rem_3.5rem]">
+            <div className="w-[11.25rem] md:w-[18.75rem] h-[11.25rem] md:h-[18.75rem] bg-[#0c4c78]  rounded-[1.875rem] left-[0.75rem] md:right-[1rem]"></div>
+          </div>
+        </div>
+
       </div>
     </>
   );

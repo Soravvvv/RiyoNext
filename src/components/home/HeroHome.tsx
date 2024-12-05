@@ -18,61 +18,48 @@ import Icon6 from "../../../public/Image/home/victor (7).png";
 
 const HeroHome = () => {
     const settings: Settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        vertical: true,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        pauseOnHover: true,
-        customPaging: (i: number) => (
-            <button
-                style={{
-                    width: "0.625rem",
-                    height: "0.625rem",
-                    borderRadius: "50%",
-                    backgroundColor: "transparent",
-                    border: "none",
-                    padding: 0,
-                    margin: 0,
-                    cursor: "pointer",
-                }}
-            >
-                {/* You can also add content inside the button if needed */}
-            </button>
-        ),
-        appendDots: (dots: React.ReactNode) => (
-            <div
-                style={{
-                    position: "absolute",
-                    bottom: "1.25rem",
-                    display: "flex",
-                    justifyContent: "center",
-                    borderRadius: "50%",
-                    padding: "0.625rem",
-                }}
-            >
-                <ul style={{ display: "flex", margin: 0, padding: 0 }}>
-                    {React.Children.map(
-                        dots,
-                        (dot: React.ReactNode, index: number) => (
-                            <li
-                                key={index}
-                                style={{
-                                    listStyleType: "none", // Make sure this li style doesn't have default list styling
-                                    margin: "0 0.3125rem",
-                                }}
-                            >
-                                {dot}
-                            </li>
-                        )
-                    )}
-                </ul>
-            </div>
-        ),
-    };
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    vertical: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    pauseOnHover: true,
+    
+    appendDots: (dots: React.ReactNode) => (
+        <div
+        style={{
+            position: 'absolute',
+            height:"100%",
+            display: 'flex',
+            flexDirection:"row",
+            alignItems: "center",
+            
+            justifyContent: 'flex-end',
+            borderRadius: '50%',
+            padding: '0.625rem',
+        }}
+        >
+            <ul style={{ display: 'flex',flexDirection:"column", margin: 0, padding: 0 }}>
+                {React.Children.map(dots, (dot: React.ReactNode, index: number) => (
+                    <li
+                        key={index}
+                        style={{
+                            listStyleType: 'none',
+                            margin: '0 0.3125rem',
+                            color:"white"
+                           
+                        }}
+                    >
+                        {dot}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    ),
+};
     const redirectToWhatsApp = () => {
         window.location.href = `https://wa.me/+916289688570`;
     };
@@ -118,7 +105,7 @@ const HeroHome = () => {
                 </div>
                 <div className="justify-between  w-full h-full flex flex-col items-center ">
                     <div className="w-full h-4/5 flex flex-col justify-around items-center">
-                        <div className=" w-24 h-11 opacity-100 z-10 rounded flex justify-center items-center font-bold text-lg cursor-pointer text-primary-orange  border-2 border-primary-orange">
+                        <div className=" w-24 h-11 opacity-100 z-10  rounded flex justify-center items-center font-bold text-lg cursor-pointer text-primary-orange border-2 border-primary-orange">
                             <Link href="https://riyorentitoverindia.in/">
                                 Log in
                             </Link>
@@ -307,7 +294,7 @@ const HeroHome = () => {
                                         <div className="md:w-96 w-20 md:h-2 h-2 rounded bg-[linear-gradient(to_right,_#ee6c4d,_#0c4c78)] mt-2"></div>
                                     </div>
                                     {/* class,ate */}
-                                    <h1 className="md:w-[60%] h-full rounded-[2rem] md:pl-20 md:text-[4.75rem] text-[2rem] leading-none font-normal text-[#ffffff] bg-[linear-gradient(to_right,_#ee6c4d,_#0c4c78)] md:mt-10 text-start p-6 ">
+                                    <h1 className="md:w-[80%] h-full rounded-[2rem] md:pl-20 md:text-[4.75rem] text-[1.5rem] leading-none font-normal text-[#ffffff] bg-[linear-gradient(to_right,_#ee6c4d,_#0c4c78)] md:mt-10 text-start p-6 ">
                                         Transport Company
                                     </h1>
                                     <p className="text-base mb-4 text-primary-white mt-9">

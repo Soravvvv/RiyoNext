@@ -29,7 +29,7 @@ const HomeOurservice: FC = () => {
                         <p className="relative z-20 text-sm lg:text-base leading-6 lg:leading-7">
                             At RIYO, we take pride in our diverse range of services, meticulously crafted to meet the unique requirements of each client. Understanding the pivotal roles within the logistics industry, we have developed a comprehensive suite of offerings tailored to address the specific needs of various stakeholders. From manufacturers to shippers to carriers, we cater to a broad spectrum of clients, ensuring that every aspect of their operations is seamlessly supported. We firmly believe that the smooth operation of vehicles on the road hinges upon the synchronized functioning of all components. With this ethos in mind, we have curated specialized services designed to optimize performance and foster collaboration across the industry.
                         </p>
-                        <Link href="/RiyoServices">
+                        <Link href="/riyoServices">
                             <button className="mt-7 py-2 lg:py-3 px-3 lg:px-4 rounded bg-primary-blue hover:bg-orange-500 text-primary-white transition-all relative z-20">
                                 Know More
                             </button>
